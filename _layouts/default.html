@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<title>Lockheed Martin Code Quest 2017</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="A website to keep track of our progress solving the Lockheed Martin Code Quest problems.">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:300,400">
+		<link rel="stylesheet" href="/css/main.css">
+		<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	</head>
+	<body>
+
+		<div class="top">
+
+			{% include header.html %}
+
+			<main>
+				{{ content }}
+			</main>
+
+		</div>
+
+		{% include footer.html %}
+		{% include scripts.html %}
+
+	</body>
+</html>

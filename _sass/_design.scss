@@ -1,0 +1,191 @@
+// ============== Global styles ==============
+::selection { background: rgba(#309994, 0.25); }
+::-moz-selection { background: rgba(#309994, 0.25); }
+
+html {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
+	height: 100%;
+	overflow-y: scroll;
+}
+
+// Part of sticky footer, in combination with
+// html height: 100%; and .top flex: 1;
+body {
+	margin: 0;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.top {
+	flex: 1;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+	font-weight: 400;
+}
+
+h1 {
+	margin-bottom: 1.6rem;
+}
+
+h2 {
+	margin-top: 3rem;
+}
+
+h2:first-of-type {
+	margin-top: 0.5rem;
+}
+
+// ============== Main styles ==============
+main {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+.wrapper {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.content {
+	max-width: 800px;
+	float: left;
+	line-height: 1.6rem;
+	padding: 0 2rem;
+}
+
+.content:last-of-type {
+	max-width: 400px;
+}
+
+.content img {
+	display: block;
+	margin: 0 auto;
+	padding: 1rem;
+	padding-left: 0;
+	padding-right: 0;
+	height: 350px;
+	width: 350px;
+}
+
+.clearfix {
+	clear: both;
+}
+
+// ============== Header styles ==============
+header {
+	background: #222;
+	color: #eee;
+	padding: 1.25rem 1rem;
+	font-size: 1.2rem;
+	font-weight: 400;
+	margin-bottom: 2rem;
+}
+
+header a {
+	color: #eee !important;
+}
+
+header a:focus, header a:hover, header a:active, header a:visited {
+	color: #eee !important;
+}
+
+header .logo:focus, header .logo:hover, header .logo:active, header .logo:visited {
+	text-decoration: none;
+}
+
+header ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+header li {
+	display: inline-block;
+	float: right;
+	padding-right: 1rem;
+}
+
+header li:first-of-type {
+	float: none;
+	padding-right: 0;
+}
+
+header li.first-right {
+	padding-right: 0; // Offset from parent padding
+}
+
+// ============== Footer styles ==============
+footer {
+	margin-top: 3rem;
+	padding-top: 0.6rem;
+	background: #222;
+	color: #eee;
+	text-align: center;
+}
+
+footer p:last-of-type {
+	margin-bottom: 2rem;
+}
+
+// ============== Table styles ==============
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+	border: 0.075rem solid #ddd;
+	margin-bottom: 0.8rem;
+	table-layout: fixed;
+}
+
+.ProblemNumber {
+	width: 1rem;
+}
+
+.ProblemTitle {
+	width: 40rem;
+}
+
+tr {
+	border: 0.075rem solid #000;
+}
+
+// table tr:first-of-type {
+// 	background: #333;
+// 	color: #eee;
+// }
+
+th, td {
+	border: none;
+	text-align: left;
+	padding: 0.8rem;
+}
+
+// th {
+// 	background: #eee;
+// }
+
+// ============== Problem specific styles ==============
+.ProblemStatus-red {
+	background: #ffacaa;
+}
+
+.ProblemStatus-green {
+	background: #C0F8D1;
+}
+
+// ============== Link styles ==============
+a {
+	text-decoration: none;
+	color: #309994;
+	font-weight: 400;
+}
+
+a:focus, a:hover, a:active, a:visited {
+	color: #309994;
+	text-decoration: underline;
+	font-weight: 400;
+}
+

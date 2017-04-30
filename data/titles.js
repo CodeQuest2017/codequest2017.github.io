@@ -1,0 +1,41 @@
+var titles = {
+	"2012": [
+		"Piggy Bank",
+		"Who Sells More Newspapers?",
+		"Numerical Order",
+		"Hidden Message",
+		"Loan Amortization",
+		"Palindromes",
+		"Grade the Scantron",
+		"Around the Block",
+		"Almost the Same",
+		"Factorials",
+		"Let’s Buy Land",
+		"Crack the Maze",
+		"Score the Test",
+		"Shortest Flight Path",
+		"Pattern Part Play",
+		"Bizarro World Rover",
+		"Pushing Blocks",
+		"Stuck-At Faults"
+	],
+	"2013": [
+		"File I/O",
+		"Mirror, Mirror",
+		"File Extensions",
+		"Sort Numbers",
+		"Software Removal",
+		"Golf Scores",
+		"Making Change",
+		"n choose k",
+		"The Three M's",
+		"IP Addresses",
+		"Camel Case",
+		"XML",
+		"Encode / Decode",
+		"Word Search",
+		"Authenticate Logins",
+		"Bingo!",
+		"Thinning"
+	]
+}
