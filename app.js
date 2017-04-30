@@ -59,15 +59,19 @@
 			if(color == "green") {
 				output += "<td>All correct.</td>";
 			} else {
+				console.warn("Error details for " + year + " #" + problem.number + " by " + problem.name + ": ");
 				if(problem.compileTimeError) {
 					output += "<td>Compile time error.</td>";
+					console.log(problem.compileTimeError);
 				}
 				if(problem.runTimeError) {
 					output += "<td>Runtime error.</td>";
+					console.log(problem.runTimeError);
 				}
 
 				if(problem.lineCountError) {
 					output += "<td>Line count error.</td>";
+					console.log(problem.lineCountError);
 				}
 			}
 			// output += "<td>" + problem.counter + "</td>"
